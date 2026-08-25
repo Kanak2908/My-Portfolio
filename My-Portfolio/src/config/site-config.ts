@@ -1,24 +1,24 @@
 import { Metadata } from "next";
 
-const TITLE = "David Goyal";
+const TITLE = "Kanak Pherwani";
 const DESCRIPTION =
-  "David Goyal is a 20 year fullstack web developer and blockchain developer.";
+  "Kanak Pherwani is a 20 year fullstack web developer and blockchain developer.";
 
 const PREVIEW_IMAGE_URL =
-  "https://res.cloudinary.com/dlu7jj0qk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1723893090/avatar/spxjogcuzsvszrdeoexb.jpg";
-const ALT_TITLE = "David Goyal";
-const BASE_URL = "https://davgoyal.xyz/";
+  "https://res.cloudinary.com/dlu7jj0qk/image/upload/v1787682754/kanak_uz5iqo.webp";
+const ALT_TITLE = "Kanak Pherwani's Portfolio";
+const BASE_URL = "https://kanakpherwani.com/";
 
 export const siteConfig: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   icons: {
-    icon: "https://res.cloudinary.com/dlu7jj0qk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1723893090/avatar/spxjogcuzsvszrdeoexb.jpg",
+    icon: "https://res.cloudinary.com/dlu7jj0qk/image/upload/v1787682754/kanak_uz5iqo.webp",
   },
-  applicationName: "David Goyal",
-  creator: "David Goyal",
+  applicationName: "Kanak Pherwani",
+  creator: "Kanak Pherwani",
   twitter: {
-    creator: "@David__Goyal",
+    creator: "@Kanak__Pherwani",
     title: TITLE,
     description: DESCRIPTION,
     card: "summary_large_image",
@@ -34,7 +34,7 @@ export const siteConfig: Metadata = {
   openGraph: {
     title: TITLE,
     description: DESCRIPTION,
-    siteName: "David Goyal",
+    siteName: "Kanak Pherwani",
     url: BASE_URL,
     locale: "en_US",
     type: "website",
@@ -51,6 +51,6 @@ export const siteConfig: Metadata = {
   alternates: {
     canonical: BASE_URL,
   },
-  keywords: ["David", "Goyal", "portfolio", "blockchain", "web3"],
+  keywords: ["Kanak", "Pherwani", "portfolio", "blockchain", "web3"],
   metadataBase: new URL(BASE_URL),
 };
