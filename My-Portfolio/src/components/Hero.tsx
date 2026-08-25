@@ -60,31 +60,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-const YoutubeCard = ({
-  img,
-  title,
-  link,
-}: {
-  img: string;
-  title: string;
-  link: string;
-}) => (
-  <div className="w-[370px] h-[320px] bg-[hsla(0%,8%,0%,1%)] rounded-md p-6 flex flex-col items-center justify-between bg-[#0a0a0a] border-[1px] border-[rgba(255,255,255,0.1)] overflow-y-auto hover:scale-105 transition-all duration-300">
-    <Link
-      className="w-full h-full rounded-md flex flex-col justify-between gap-4"
-      href={link}
-      target="_blank"
-    >
-      <Image
-        src={img}
-        alt="project"
-        className="h-[80%] w-full rounded-md object-cover"
-        width={100}
-        quality={100}
-        height={100}
-      />
-      <h1 className="text-white text-xl font-bold">{title}</h1>
-    </Link>
-  </div>
-);

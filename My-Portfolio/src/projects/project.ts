@@ -1,7 +1,4 @@
-import Hard from "../assets/75Hard.png";
 import coinflip from "../assets/coinflip.png";
-import NftBridge from "../assets/loomia-bridge.png";
-import Loomia from "../assets/Loomia.png";
 import TravelLink from "../assets/TravelLink.png";
 
 export const projects = [
